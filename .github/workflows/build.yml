@@ -24,12 +24,11 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: test
+          auto-activate-base: false
           channel-priority: strict
           environment-file: environment.yml
           use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
       - run: conda env list
       - name: check Sphinx
         shell: bash -l {0}
-        run: |
-          conda activate test
-          conda list
+        run: conda list sphinx
