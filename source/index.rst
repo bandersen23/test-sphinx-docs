@@ -6,7 +6,7 @@
 Welcome to test-sphinx-docs's documentation!
 ============================================
 
-You can find a random cat fact here: `RandomCatFact`_
+Hello! You can find a random cat fact here: `RandomCatFact`_
 
 .. _RandomCatFact: https://catfact.ninja/fact
 
