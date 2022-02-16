@@ -35,3 +35,8 @@ jobs:
       - name: Build sphinx
         shell: bash -l {0}
         run: sphinx-build -b html source _build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: _build # The folder the action should deploy.
