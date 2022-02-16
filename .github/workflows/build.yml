@@ -32,3 +32,6 @@ jobs:
       - name: check Sphinx
         shell: bash -l {0}
         run: conda list sphinx
+      - name: Build sphinx
+        shell: bash -l {0}
+        run: sphinx-build -b html source _build
