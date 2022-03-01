@@ -12,6 +12,8 @@ This returns a `200` status code: http://httpbin.org/status/200
 
 This returns a `404` status code: http://httpbin.org/status/400
 
+This should redirect: http://httpbin.org/redirect/2
+
 .. _RandomCatFact: https://catfact.ninja/fact
 
 .. toctree::
