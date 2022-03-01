@@ -8,6 +8,10 @@ Welcome to test-sphinx-docs's documentation!
 
 You can find a random cat fact here: `RandomCatFact`_
 
+This returns a `200` status code: http://httpbin.org/status/200
+
+This returns a `404` status code: http://httpbin.org/status/400
+
 .. _RandomCatFact: https://catfact.ninja/fact
 
 .. toctree::
